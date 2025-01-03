@@ -5,22 +5,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home Page</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <body>
   <div class="container">
+    <!-- Menu Trigger -->
+    <span class="menu-trigger">
+      <i class="menu-trigger-bar top"></i>
+      <i class="menu-trigger-bar middle"></i>
+      <i class="menu-trigger-bar bottom"></i>
+    </span>
+
+    <!-- Close Trigger -->
+    <span class="close-trigger">
+      <i class="close-trigger-bar left"></i>
+      <i class="close-trigger-bar right"></i>
+    </span>
+
+    <!-- Logo -->
     <div class="logo">
-      <span>Logo</span>
+      <img src="logo.jpg" alt="Logo">
     </div>
 
-    <div class="menu-trigger">
-      <div class="menu-trigger-bar top"></div>
-      <div class="menu-trigger-bar middle"></div>
-      <div class="menu-trigger-bar bottom"></div>
-    </div>
-
-    <div class="menu-container">
-      <div class="menu">
-        <ul>
+    <!-- Inner Container for Menu -->
+    <div class="inner-container">
+      <i class="menu-bg top"></i>
+      <i class="menu-bg middle"></i>
+      <i class="menu-bg bottom"></i>
+      <div class="menu-container">
+        <ul class="menu">
           <li><a href="login.html">Login</a></li>
           <li><a href="create_account.html">Create Account</a></li>
           <li><a href="support.html">Support</a></li>
@@ -28,12 +41,14 @@
         </ul>
       </div>
     </div>
-
-    <div id="links">
-      <a href="#">Contact Us</a> | <a href="#">Privacy Policy</a>
-    </div>
   </div>
 
+  <!-- Links Section -->
+  <div id="links">
+    <a href="#">Contact Us</a> | <a href="#">Privacy Policy</a>
+  </div>
+
+  <!-- Include JS -->
   <script src="scripts.js"></script>
 </body>
-      </html>
+  </html>
